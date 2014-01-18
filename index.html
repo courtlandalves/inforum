@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">  
 
     <!-- Custom styles for this -->
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/inforum.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/Javascript" src='js/inforum.js'></script>
 
   </head>
 
   <body>
+
     <div class="container">
 
       <div class="page-header">
@@ -115,9 +119,9 @@
 
       <h3>Recent Event Photos</h3>
       <div class="row">
-        <div class="col-md-4"><img class="img-responsive" src="images/audience.jpg" /></div>
-        <div class="col-md-4"><img class="img-responsive" src="images/audience.jpg" /></div>
-        <div class="col-md-4"><img class="img-responsive" src="images/audience.jpg" /></div>
+        <div class="col-md-4 event-photo-holder"><img id="event_0" class="img-responsive" src="" /></div>
+        <div class="col-md-4 event-photo-holder"><img id="event_1" class="img-responsive" src="" /></div>
+        <div class="col-md-4 event-photo-holder"><img id="event_2" class="img-responsive" src="" /></div>
       </div>
 
       <div class="timeline">
@@ -168,7 +172,7 @@
             Join one of our exciting upcoming events and meet incredible speakers firsthand.
             </p>
             <p class="text-center">
-              <a href="http://www.commonwealthclub.org/events/featured-programs/inforum" type="button" class="btn btn-info btn-lg">See Upcoming Events</a>
+            <a href="http://www.commonwealthclub.org/events/featured-programs/inforum" type="button" class="btn btn-info btn-lg">See Upcoming Events</a>
             </p>
           </div>
           <div class="col-md-4">
@@ -181,7 +185,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" /> 
               </div>
               <p class="text-center">
-                <button type="submit" class="btn btn-info btn-lg">subscribe</button>
+              <button type="submit" class="btn btn-info btn-lg">subscribe</button>
               </p>
             </form>
           </div>

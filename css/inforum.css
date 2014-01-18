@@ -1,3 +1,7 @@
+* {
+  font-family: 'Alegreya Sans', sans-serif !important;
+}
+
 /* Customize container */
 @media (min-width: 950px) {
   .container {
@@ -6,14 +10,12 @@
 }
 
 h3 {
-  font-family: HelveticaNeue-Bold;
   font-size: 24px;
   color: #4A4A4A;
   line-height: 29px;
 }
 
 h2 {
-  font-family: HelveticaNeue-Bold;
   font-size: 37px;
   color: #4A4A4A;
   line-height: 45px;
@@ -27,7 +29,6 @@ h2 {
 
 /* Header */
 .page-header .inforum {
-  font-family: HelveticaNeue-Thin;
   font-size: 72px;
   color: #008BF5;
   line-height: 87px;
@@ -35,14 +36,12 @@ h2 {
 }
 
 .page-header .at-the {
-  font-family: HelveticaNeue-Thin;
   font-size: 17px;
   color: #D8D8D8;
   line-height: 20px;
 }
 
 .page-header .commonwealth-club {
-  font-family: HelveticaNeue-Thin;
   font-size: 26px;
   color: #4A4A4A;
   line-height: 32px;
@@ -82,10 +81,21 @@ h2 {
 
 .quotes blockquote {
   border-right: 0px;
-  font-family: HelveticaNeue-Medium;
   font-size: 26px;
   color: #9B9B9B;
   line-height: 32px;
+}
+
+/* Event Photos */
+
+.event-photo-holder {
+  height: 200px;
+  overflow: hidden;
+}
+
+.event-photo-holder img {
+  min-height: 100%;
+  min-width: 100%;
 }
 
 /* Timeline */
@@ -108,7 +118,6 @@ h2 {
 
 .well p {
   margin-top: 20px;
-  font-family: HelveticaNeue-Light;
 }
 
 /* The INFORUM division: */
