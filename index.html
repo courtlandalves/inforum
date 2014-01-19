@@ -9,9 +9,6 @@
     <!-- Custom styles for this -->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/inforum.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/Javascript" src='js/inforum.js'></script>
-
   </head>
 
   <body>
@@ -182,12 +179,27 @@
             <p>
             Sign up to hear about new events!
             </p>
-            <form role="form">
+
+
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe"
+              style="display:none;" onload="if(submitted)
+              {window.location='/?submitted=true';}"></iframe>
+            <form action="https://docs.google.com/forms/d/1Gw6ADP77afoS8aOrC8HWs-7jKAz9gvNsgXUmkMEc3xM/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" /> 
+
+                <input class="form-control" type="text" placeholder="Enter Email" name="entry.1261263838" value="" class="ss-q-short" id="entry_1261263838" dir="auto" aria-label=" Sign up to hear about new events! " title="">
+
+
+                <input type="hidden" name="draftResponse" value="[,,&quot;-1831428064629240326&quot;] ">
+                <input type="hidden" name="pageHistory" value="0">
+
+                <input type="hidden" name="fbzx" value="-1831428064629240326">
+
               </div>
               <p class="text-center">
-              <button type="submit" class="btn btn-info btn-lg">subscribe</button>
+              <input type="submit" class="btn btn-info btn-lg" name="submit" value="Submit" id="ss-submit">
               </p>
             </form>
           </div>
@@ -206,9 +218,9 @@
   <!-- Bootstrap core JavaScript -->
   <!-- Placed at the end of the document so the pages load faster -->
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/Javascript" src='js/inforum.js'></script>
 
-  <!-- Latest compiled and minified JavaScript -->
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
   <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script> -->
 
 </body>
