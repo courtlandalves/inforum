@@ -255,15 +255,16 @@
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
     <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script> 
     <script type="text/javascript" src="js/handlebars-v1.3.0.js"></script> 
+    <script type="text/javascript" src="js/tabletop.js"></script> 
 
     <script id="fliptile-template" type="text/x-handlebars-template">
       <div class="tile thumb scroll">
         <div class="thumb-wrapper">
-          <img src="images/{{imageFilename}}" alt="" /> 
+          <img src="{{imageurl}}" alt="" /> 
           <div class="thumb-detail">
-            <p class="speaker-name">{{speakerName}}</p>
-            <p class="speaker-detail">{{speakerDetail}}</p>
-            <p class="program-title">{{programTitle}}</p>        
+            <p class="speaker-name">{{speakername}}</p>
+            <p class="speaker-detail">{{speakerdetail}}</p>
+            <p class="program-title">{{programtitle}}</p>        
           </div>
         </div>
       </div>   
