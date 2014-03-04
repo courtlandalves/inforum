@@ -53,7 +53,7 @@ function drawSpeakerMatrix(data, tabletop) {
   var source = $("#fliptile-template").html();
   var template = Handlebars.compile(source);
 
-  var fliptileDataShuffled = shuffle(googleDocData);
+  var fliptileDataShuffled = googleDocData;//shuffle(googleDocData);
 
   for (var i = 0; i < fliptileDataShuffled.length; i++) {
     $("#tile" + i).append(template(fliptileDataShuffled[i]));
