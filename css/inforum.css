@@ -88,6 +88,101 @@ h4 {
 
 }
 
+/* Description */
+
+.description {
+  background: #3498DB;
+  padding: 80px 0px 90px 0px;
+}
+
+.description h3 {
+  text-transform:uppercase;
+  font-family: .LucidaGrandeUI;
+  font-size: 33px;
+  color: #FFFFFF;
+  line-height: 39px;
+}
+
+/* three up */
+
+.three-up {
+  margin-top: 80px;
+}
+
+.three-up img {
+  height: 240;
+  width: 240;
+  border: 10px solid #3498D8; 
+
+}
+
+.three-up h3 {
+  font-family: .LucidaGrandeUI;
+  font-size: 33px;
+  color: #3498DB;
+  line-height: 39px;
+}
+
+.three-up p {
+  font-family: .LucidaGrandeUI;
+  font-size: 22px;
+  color: #4A4A4A;
+  line-height: 34px;
+}
+
+.three-up .btn {
+  margin-top: 30px;
+  border-radius: 8px;
+  background: #3498DB;
+  font-family: .LucidaGrandeUI;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 38px;
+  padding: 30px;
+}
+
+/* Quotes */
+
+.quotes { 
+  background: #3498DB;
+  padding: 80px 0px 90px 0px;
+}
+
+.quotes h2 {
+  text-transform:uppercase;
+  font-family: .LucidaGrandeUI;
+  font-size: 59px;
+  color: #FFFFFF;
+  line-height: 71px;
+}
+
+.quotes h3 {
+  font-family: .LucidaGrandeUI;
+  font-size: 33px;
+  color: #FFFFFF;
+  line-height: 39px;
+  text-transform:uppercase;
+}
+
+/* Recent Photos */
+
+.recent-photos {
+  padding-top: 60px;
+}
+
+.recent-photos h3 {
+  text-transform:uppercase;
+  font-family: .LucidaGrandeUI;
+  font-size: 34px;
+  color: #4A4A4A;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+
+.recent-photos img {
+  border: none;
+}
+
 /* Hero Unit */
 .hero {
   margin-top: 35px;
