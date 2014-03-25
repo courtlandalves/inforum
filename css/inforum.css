@@ -98,7 +98,6 @@ h4 {
 
 .page-header .logo {
   height: 100px;
-  margin-right:10px;
 }
 
 .page-header p {
@@ -186,11 +185,6 @@ h4 {
 }
 
 /* three up */
-
-.three-up {
-  margin-top: 80px;
-}
-
 .three-up img {
   height: 240;
   width: 240;
@@ -253,11 +247,6 @@ h4 {
 
 /* Recent Photos */
 
-.recent-photos {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .recent-photos h3 {
   text-transform:uppercase;
   font-size: 34px;
@@ -273,6 +262,7 @@ h4 {
 .event-photo-holder {
   height: 200px;
   overflow: hidden;
+  margin-top:10px;
 }
 
 .event-photo-holder img {
@@ -284,7 +274,6 @@ h4 {
 
 .cwc {
   background: #333 url('https://scontent-b-sea.xx.fbcdn.net/hphotos-frc3/t31.0-8/291421_10151947338964057_359330140_o.jpg') repeat fixed;
-  padding: 80px 0px 90px 0px;
 }
 
 .cwc h3 {
