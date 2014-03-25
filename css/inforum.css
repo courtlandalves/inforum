@@ -54,14 +54,12 @@ h4 {
 /* Header */
 .page-header .inforum {
   display: inline-block;
-  font-family: .LucidaGrandeUI;
   font-size: 72px;
   color: #E67E22;
   line-height: 85px;
 }
 
 .page-header .a-division {
-  font-family: .LucidaGrandeUI;
   font-size: 17px;
   color: #4A4A4A;
   line-height: 20px;
@@ -80,7 +78,6 @@ h4 {
 
 .page-header h2 {
   text-transform:uppercase;
-  font-family: .LucidaGrandeUI;
   font-size: 47px;
   color: #3498DB;
   line-height: 45px;
@@ -97,7 +94,6 @@ h4 {
 
 .description h3 {
   text-transform:uppercase;
-  font-family: .LucidaGrandeUI;
   font-size: 33px;
   color: #FFFFFF;
   line-height: 39px;
@@ -117,14 +113,12 @@ h4 {
 }
 
 .three-up h3 {
-  font-family: .LucidaGrandeUI;
   font-size: 33px;
   color: #3498DB;
   line-height: 39px;
 }
 
 .three-up p {
-  font-family: .LucidaGrandeUI;
   font-size: 22px;
   color: #4A4A4A;
   line-height: 34px;
@@ -134,7 +128,6 @@ h4 {
   margin-top: 30px;
   border-radius: 8px;
   background: #3498DB;
-  font-family: .LucidaGrandeUI;
   font-size: 32px;
   color: #FFFFFF;
   line-height: 38px;
@@ -150,14 +143,12 @@ h4 {
 
 .quotes h2 {
   text-transform:uppercase;
-  font-family: .LucidaGrandeUI;
   font-size: 59px;
   color: #FFFFFF;
   line-height: 71px;
 }
 
 .quotes h3 {
-  font-family: .LucidaGrandeUI;
   font-size: 33px;
   color: #FFFFFF;
   line-height: 39px;
@@ -172,7 +163,6 @@ h4 {
 
 .recent-photos h3 {
   text-transform:uppercase;
-  font-family: .LucidaGrandeUI;
   font-size: 34px;
   color: #4A4A4A;
   line-height: 40px;
@@ -201,7 +191,6 @@ h4 {
 }
 
 .thumb p.speaker-name {
-  font-family: .LucidaGrandeUI;
   font-size: 20px;
   color: #4A4A4A;
   line-height: 23px;
@@ -210,7 +199,6 @@ h4 {
 }
 
 .thumb p.speaker-detail {
-  font-family: .LucidaGrandeUI;
   font-size: 14px;
   color: #4A4A4A;
   line-height: 23px;
@@ -218,7 +206,6 @@ h4 {
 }
 
 .thumb p.program-title {
-  font-family: .LucidaGrandeUI;
   font-size: 14px;
   color: #4A4A4A;
   line-height: 23px;
