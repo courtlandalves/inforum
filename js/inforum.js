@@ -1,5 +1,4 @@
 // Adding facebook album photos to event section
-          console.log("test");
 $.get( "https://graph.facebook.com/INFORUMsf/albums", function (albums) {
 
   for ( var albumIndex = 0; albumIndex < albums.data.length; albumIndex++ ) {
@@ -48,7 +47,6 @@ function shuffle(array) {
 
 function drawSpeakerMatrix(data, tabletop) {
 
-  console.log(data);
   googleDocData = data;
 
   var source = $("#fliptile-template").html();
