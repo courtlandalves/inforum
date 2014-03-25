@@ -51,6 +51,17 @@ h4 {
   border: 1px solid #979797;
 }
 
+.padded { 
+  padding: 40px 0px 45px 0px;
+}
+
+@media (min-width: 992px) {
+
+  .padded {
+    padding: 80px 0px 90px 0px;
+  }
+}
+
 /* Header */
 .page-header .inforum {
   display: inline-block;
@@ -153,7 +164,6 @@ h4 {
 
 .description {
   background: #3498DB;
-  padding: 80px 0px 90px 0px;
 }
 
 @media (min-width: 992px) { 
@@ -214,7 +224,6 @@ h4 {
 
 .quotes { 
   background: #3498DB url('https://scontent-b-sea.xx.fbcdn.net/hphotos-frc3/t31.0-8/291421_10151947338964057_359330140_o.jpg') repeat fixed;
-  padding: 80px 0px 90px 0px;
 }
 
 .quotes h2 {
