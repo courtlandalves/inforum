@@ -71,6 +71,6 @@ $(function(){
 /* *************************************** */  
 
 $(document).ready(function(){
-	$('.cwc').parallax("50%", 0.2);
-	$('.description').parallax("70%", 0.2);
+	$('.cwc').parallax("50%", 0.1);
+	$('.description').parallax("70%", 0.1);
 });
