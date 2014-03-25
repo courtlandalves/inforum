@@ -85,11 +85,58 @@ h4 {
 
 }
 
+.page-header .speakers {
+  height: 287px;
+}
+
+.thumb img {
+  width: 180px;
+  height:180px;
+  -moz-box-shadow:    2px 2px 9px 0px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.50);
+  box-shadow:         2px 2px 9px 0px rgba(0,0,0,0.50);
+}
+
+.thumb p.speaker-name {
+  font-size: 20px;
+  color: #4A4A4A;
+  line-height: 23px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.thumb p.speaker-detail {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 23px;
+  margin: 0px;
+}
+
+.thumb p.program-title {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 23px;
+  margin: 0px;
+} 
+
 /* Description */
+
 
 .description {
   background: #3498DB;
   padding: 80px 0px 90px 0px;
+}
+
+@media (min-width: 992px) { 
+
+  .description {
+    background: #3498DB url('/images/background-crowd.png') repeat fixed;
+  }
+
+  .description .container {
+    padding-left: 0px;
+  }
+
 }
 
 .description h3 {
@@ -137,7 +184,7 @@ h4 {
 /* Quotes */
 
 .quotes { 
-  background: #3498DB;
+  background: #3498DB url('https://scontent-b-sea.xx.fbcdn.net/hphotos-frc3/t31.0-8/291421_10151947338964057_359330140_o.jpg') repeat fixed;
   padding: 80px 0px 90px 0px;
 }
 
@@ -155,10 +202,22 @@ h4 {
   text-transform:uppercase;
 }
 
+.row.quotes {
+  padding-top:60px;
+}
+
+.quotes blockquote {
+  border-right: 0px;
+  font-size: 26px;
+  color: #9B9B9B;
+  line-height: 32px;
+}
+
 /* Recent Photos */
 
 .recent-photos {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .recent-photos h3 {
@@ -173,72 +232,6 @@ h4 {
   border: none;
 }
 
-/* Hero Unit */
-.hero {
-  margin-top: 35px;
-}
-
-.hero .row {
-  margin-bottom: 15px;
-}
-
-.thumb img {
-  width: 180px;
-  height:180px;
-  -moz-box-shadow:    2px 2px 9px 0px rgba(0,0,0,0.50);
-  -webkit-box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.50);
-  box-shadow:         2px 2px 9px 0px rgba(0,0,0,0.50);
-}
-
-.thumb p.speaker-name {
-  font-size: 20px;
-  color: #4A4A4A;
-  line-height: 23px;
-  margin-bottom: 0px;
-  margin-top: 15px;
-}
-
-.thumb p.speaker-detail {
-  font-size: 14px;
-  color: #4A4A4A;
-  line-height: 23px;
-  margin: 0px;
-}
-
-.thumb p.program-title {
-  font-size: 14px;
-  color: #4A4A4A;
-  line-height: 23px;
-  margin: 0px;
-}  
-
-/* Description */
-.row.description {
-  padding-top:40px;
-}
-
-.row.description p{
-  padding-top:15px;
-}
-
-.row.description .btn{
-  margin-top:30px;
-}
-
-/* Quotes */ 
-.row.quotes {
-  padding-top:60px;
-}
-
-.quotes blockquote {
-  border-right: 0px;
-  font-size: 26px;
-  color: #9B9B9B;
-  line-height: 32px;
-}
-
-/* Event Photos */
-
 .event-photo-holder {
   height: 200px;
   overflow: hidden;
@@ -249,62 +242,80 @@ h4 {
   min-width: 100%;
 }
 
-/* Timeline */
+/* CWC */
 
-.timeline {
-  padding-top: 30px;
+.cwc {
+  background: #333 url('https://scontent-b-sea.xx.fbcdn.net/hphotos-frc3/t31.0-8/291421_10151947338964057_359330140_o.jpg') repeat fixed;
+  padding: 80px 0px 90px 0px;
 }
 
-/* Well */
-.well {
-  margin-top:50px;
-  font-size: 16px;
-  line-height: 19px;
-  color: #4A4A4A;
-  background: #F7F7F7;
-  border: 0px;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+.cwc h3 {
+  font-size: 38px;
+  color: #3498DB;
+  line-height: 45px;
 }
 
-.well p {
-  margin-top: 20px;
-  font-size: 18px;
-  line-height: 26px;
-
-}
-
-/* The INFORUM division: */
-.well .inforum {
-  font-size: 24px;
-  line-height: 1.5em;
-}
-
-.well h3 {
-  font-size: 32px;
-  font-weight: 700;
-
-}
-/* Conversations */
-.conversations {
-  margin-top: 60px;
-}
-
-.conversations p
-{
+.cwc p {
   font-size: 22px;
-  line-height: 1.5em;
+  color: #FFFFFF;
+  line-height: 33px;
 }
 
-.conversations h2
-{
-  margin: 0 0 20px 0;
+.cwc strong {
+  font-size: 28px;
+  color: #FB9E4A;
+  line-height: 33px;
 }
 
-.conversations p
-{
+/* Conversation */
+
+.conversation h3 {
+  text-transform:uppercase;
+  font-size: 37px;
+  color: #4A4A4A;
+  line-height: 44px;
+}
+
+.conversation p {
+  margin-top: 30px;
   font-size: 18px;
-  line-height: 1.6em;
+  color: #4A4A4A;
+  line-height: 19px;
+}
+
+.conversation .btn {
+  margin-top: 30px;
+  border-radius: 8px;
+  background: #3498DB;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 38px;
+  padding: 30px;
+}
+
+.conversation .right-side {
+  background: #333;
+  height: 400px;
+}
+
+/* Stay Informed */
+
+.stay-informed .email {
+  border-radius: 4px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  height: 53px;  
+  margin-right: 10px;
+}
+
+.stay-informed .btn {
+  font-size: 21px;
+  color: #3498DB;
+  line-height: 26px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 2px solid #3498DB;
+  height: 53px;  
 }
 
 /* Page footer */

@@ -1,5 +1,7 @@
 <html>
   <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
@@ -35,7 +37,7 @@
         </div>
 
         <p>Past talks at INFORUM in San Francisco</p>
-        <div class="row">
+        <div class="row speakers">
           <div class="col-md-3"><div id="tile0"></div></div>
           <div class="col-md-3"><div id="tile1"></div></div>
           <div class="col-md-3"><div id="tile2"></div></div>
@@ -46,7 +48,11 @@
     </div>
     <div class="description">
       <div class="container">
-        <h3>Live Events in San Francisco - Where You'll Meet Leaders Shaping What Matters to You</h3>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>Live Events in San Francisco - Where You'll Meet Leaders Shaping What Matters to You</h3>
+          </div>
+        </div>
       </div>
     </div>
     <div class="three-up">
@@ -83,7 +89,7 @@
           <div class="col-md-8 col-md-offset-2">
             <p class="text-center">
             INFORUM events are open to the public, with hundreds of seats, and typically sell out. Join us!
-            </p
+            </p>
           </div>
         </div>
       </div>
@@ -123,52 +129,65 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="conversations">
-
-        <h2>Make incredible conversations yours.</h3>
+    <div class="conversation">
+      <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <h3>1. Attend an Event</h3>
+          <div class="col-md-6 col-md-offset-1 text-center">
+            <h3>Make incredible conversation yours</h3>
+            <a href="http://www.commonwealthclub.org/events/featured-programs/inforum" type="button" class="btn btn-info btn-lg">Attend an Upcoming Event</a>
             <p>
-            Join one of our exciting upcoming events and meet incredible speakers firsthand.
-            </p>
-            <p class="text-center">
-            <a href="http://www.commonwealthclub.org/events/featured-programs/inforum" type="button" class="btn btn-info btn-lg">See Upcoming Events</a>
+              Check out the incredible speakers coming to INFORUM — and mark your calendar to meet them.
             </p>
           </div>
-          <div class="col-md-4">
-            <h3>2. Stay informed</h3>
-            <p>
-            Sign up to hear about new events!
-            </p>
 
+          <div class="col-md-4 col-md-offset-1 right-side">
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="stay-informed">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <h4>Stay Informed</h4>
+          </div>
+          <div class="col-md-6 text-center">
+            <h4>Connect</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p>Be the first to hear about new events!</p>
+          </div>
+          <div class="col-md-6 text-center">
+            <p>Follow us to learn about upcoming talks &amp; speakers!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center">
             <script type="text/javascript">var submitted=false;</script>
             <iframe name="hidden_iframe" id="hidden_iframe"
               style="display:none;" onload="if(submitted)
               {window.location='/?submitted=true';}"></iframe>
-            <form action="https://docs.google.com/forms/d/1Gw6ADP77afoS8aOrC8HWs-7jKAz9gvNsgXUmkMEc3xM/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <form action="https://docs.google.com/forms/d/1Gw6ADP77afoS8aOrC8HWs-7jKAz9gvNsgXUmkMEc3xM/formResponse" class="form-inline" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
               <div class="form-group">
 
-                <input class="form-control" type="text" placeholder="Enter Email" name="entry.1261263838" value="" class="ss-q-short" id="entry_1261263838" dir="auto" aria-label=" Sign up to hear about new events! " title="">
-
+                <input class="form-control email" type="text" placeholder="Enter Email" name="entry.1261263838" value="" class="ss-q-short" id="entry_1261263838" dir="auto" aria-label=" Sign up to hear about new events! " title="">
 
                 <input type="hidden" name="draftResponse" value="[,,&quot;-1831428064629240326&quot;] ">
                 <input type="hidden" name="pageHistory" value="0">
-
                 <input type="hidden" name="fbzx" value="-1831428064629240326">
-
               </div>
-              <p class="text-center">
-              <input type="submit" class="btn btn-info btn-lg" name="submit" value="Submit" id="ss-submit">
-              </p>
+
+              <input type="submit" class="btn btn-info" name="submit" value="Subscribe" id="ss-submit">
             </form>
+ 
           </div>
-          <div class="col-md-4">
-            <h3>3. Connect</h3>
-            <p>Follow us and share your stories!</p>
+          <div class="col-md-6 text-center">
+
             <div class="social-icon">
               <a href="https://www.facebook.com/INFORUMsf" >
                 <div class="image facebook-icon">
@@ -193,9 +212,11 @@
 
           </div>
         </div>
+     
       </div>
+    </div>
 
-      <div class="page-footer">
+     <div class="page-footer">
         the <a href="http://commonwealthclub.org">commonwealth club</a> is a 501(c)(3) nonprofit<i>&bull;</i>&copy; 2014<i>&bull;</i>made with love in san francisco.
       </div>
 
@@ -216,16 +237,15 @@
     <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script> 
     <script type="text/javascript" src="js/handlebars-v1.3.0.js"></script> 
     <script type="text/javascript" src="js/tabletop.js"></script> 
+		<script src="js/jquery.parallax-1.1.3.js"></script>
 
     <script id="fliptile-template" type="text/x-handlebars-template">
       <div class="thumb">
-        <div class="thumb-wrapper">
-          <img src="{{imageurl}}" alt="" /> 
-          <div class="thumb-detail">
-            <p class="speaker-name">{{speakername}}</p>
-            <p class="speaker-detail">{{speakerdetail}}</p>
-            <p class="program-title">{{programtitle}}</p>        
-          </div>
+        <img src="{{imageurl}}" alt="" /> 
+        <div class="thumb-detail">
+          <p class="speaker-name">{{speakername}}</p>
+          <p class="speaker-detail">{{speakerdetail}}</p>
+          <p class="program-title">{{programtitle}}</p>        
         </div>
       </div>   
     </script>

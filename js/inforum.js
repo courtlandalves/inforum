@@ -58,36 +58,19 @@ function drawSpeakerMatrix(data, tabletop) {
     $("#tile" + i).append(template(fliptileDataShuffled[i]));
   };
 
-  // Flip animation
-
-  if ($('html').hasClass('csstransforms3d')) {  
-
-    $('.thumb').removeClass('scroll').addClass('flip');   
-    $('.thumb.flip').hover(
-        function () {
-          $(this).find('.thumb-wrapper').addClass('flipIt');
-        },
-        function () {
-          $(this).find('.thumb-wrapper').removeClass('flipIt');     
-        }
-        );
-
-  } else {
-
-    $('.thumb').hover(
-        function () {
-          $(this).find('.thumb-detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
-        },
-        function () {
-          $(this).find('.thumb-detail').stop().animate({bottom: ($(this).height() * -1) }, 500, 'easeOutCubic');      
-        }
-        );
-  }
-
 }
 
 $(function(){
   Tabletop.init( { key: '0Arjh_9mskXPsdEJTcDduN1hhT053TGpTQWdDZVJVclE',
     callback: drawSpeakerMatrix,
   simpleSheet: true } )
+});
+
+/* *************************************** */  
+/* Parallax */
+/* *************************************** */  
+
+$(document).ready(function(){
+	$('.cwc').parallax("50%", 0.2);
+	$('.description').parallax("70%", 0.2);
 });
