@@ -349,7 +349,7 @@ h4 {
   margin-top:30px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 991px) {
   .description { 
     background: #000 url('/images/background-crowd.jpg');
     background-size: 100%;
@@ -503,7 +503,7 @@ h4 {
   background-position: top;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 991px){
   .quotes { 
     background: #000 url('/images/inforum-light.jpg');
     background-size: 100%;
@@ -699,7 +699,7 @@ h4 {
   background-position: bottom;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
   .stay-informed {
     background: #000 url('/images/gg-park.jpg');
