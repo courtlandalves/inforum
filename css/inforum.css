@@ -412,10 +412,18 @@ h4 {
   line-height: 19px;
 }
 
+.conversation .button p {
+  margin-top:15px;
+  font-weight: 300px;
+  font-size: 16px;
+  color: #4A4A4A;
+  line-height: 19px;
+}
+
 .conversation .btn {
-  font-size: 25px;
-  color: #FFFFFF;
+  font-size: 30px;
   line-height: 38px;
+  color: #FFFFFF;
   font-weight:300;
   width: 100%;
   padding-top: 30px;
@@ -423,14 +431,7 @@ h4 {
   background: #3498DB;
   border-radius: 8px;
   border-color: #3498DB;
-}
-
-.conversation .button p {
-  margin-top:15px;
-  font-weight: 300px;
-  font-size: 16px;
-  color: #4A4A4A;
-  line-height: 19px;
+  white-space: normal;
 }
 
 @media (min-width: 992px) {
@@ -449,8 +450,6 @@ h4 {
   }
   
 }
-
-
 
 /* Stay Informed */
 
