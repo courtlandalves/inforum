@@ -324,13 +324,6 @@ h4 {
 
 }
 
-/* Description */
-.description {
-  background: #000 url('/images/background-crowd.jpg') repeat fixed;
-  background-size: 100%;
-  margin-top:30px;
-}
-
 .description h3 {
   font-weight: 300;
   text-transform:uppercase;
@@ -348,12 +341,29 @@ h4 {
   text-transform:uppercase;
 }
 
+/* Description */
+.description {
+  background: #000 url('/images/background-crowd.jpg');
+  background-size: auto 100%;
+  background-position: bottom;
+  margin-top:30px;
+}
+
+@media (min-width: 500px) {
+  .description { 
+    background: #000 url('/images/background-crowd.jpg');
+    background-size: 100%;
+    background-position: bottom;
+  }
+}
+
 @media (min-width: 992px) {
   /* Description */
   .description {
     background: #000 url('/images/background-crowd.jpg') repeat fixed;
     background-size: 100%;
     margin-top:80px;
+    background-position: bottom;
   }
   
   .description h3 {
@@ -369,8 +379,6 @@ h4 {
     font-weight: 600;
   }
 }
-
-
 
 
 .description .btn {
@@ -490,9 +498,28 @@ h4 {
 /* Quotes */
 
 .quotes { 
-  background: #000 url('/images/inforum-light.jpg') repeat fixed;
-  background-size: 100%;
+  background: #000 url('/images/inforum-light.jpg');
+  background-size: auto 100%;
+  background-position: top;
 }
+
+@media (min-width: 500px) {
+  .quotes { 
+    background: #000 url('/images/inforum-light.jpg');
+    background-size: 100%;
+    background-position: top;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Description */
+  .quotes {
+    background: #000 url('/images/inforum-light.jpg') repeat fixed;
+    background-size: 100%;
+    background-position: bottom;
+  }
+}
+
 
 .quotes h2 {
   font-weight: 400;
