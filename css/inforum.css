@@ -476,19 +476,19 @@ h4 {
 }
 
 .blue-alpha {
-  background-color: rgba(52, 151, 219, 0.15);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .stay-informed .container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .stay-informed h4 {
   text-transform:uppercase;
-  font-weight: 700;
-  font-size: 18px;
-  color: #4A4A4A;
+  font-weight: 300;
+  font-size: 22px;
+  color: #FFF;
   line-height: 22px;
   padding-bottom:0px;
 }
@@ -496,8 +496,9 @@ h4 {
 .stay-informed p {
   font-weight: 300;
   font-size: 16px;
-  color: #4A4A4A;
+  color: #FFF;
   line-height: 21px;
+  padding-bottom:20px;
 }
 
 .stay-informed .email {
@@ -510,10 +511,9 @@ h4 {
 
 .stay-informed .btn {
   font-size: 21px;
-  color: #3498DB;
+  background: #3498DB;
   line-height: 26px;
   border-radius: 8px;
-  background: #FFFFFF;
   border: 2px solid #3498DB;
   height: 53px;  
 }
