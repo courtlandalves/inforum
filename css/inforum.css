@@ -212,6 +212,10 @@ h4 {
 
 .thumb {
   height: 80px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .thumb img {
@@ -260,6 +264,9 @@ h4 {
 
   .thumb {
     height: 250px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .thumb img {
@@ -620,8 +627,19 @@ h4 {
 /* Stay Informed */
 
 .stay-informed {
-  background: #000 url('/images/gg-park.jpg') repeat fixed;
-  background-size: 100%;
+  background: #000 url('/images/gg-park.jpg');
+  background-size: auto 100%;
+  background-position: bottom;
+}
+
+@media (min-width: 992px) {
+
+  .stay-informed {
+    background: #000 url('/images/gg-park.jpg');
+    background-size: 100%;
+    background-position: top;
+  }
+
 }
 
 .blue-alpha {
