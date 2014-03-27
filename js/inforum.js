@@ -72,7 +72,7 @@ $(function(){
 
 $(document).ready(function(){
   if(window.innerWidth > 992) {
-    $('.description').parallax("50%", 0.1);
-    $('.quotes').parallax("50%", 0.1);
+    $('.description').parallax("50%", 0.7);
+    $('.quotes').parallax("50%", 0.7);
   }
 });
