@@ -13,7 +13,7 @@
 p {
   font-size: 24px;
   line-height: 34px;
-  font-weight: 300;  
+  font-weight: 400;  
 }
 
 p.text-primary {
@@ -79,7 +79,7 @@ h4 {
 }
 
 .page-header .inforum {
-  font-weight: 300;
+  font-weight:400;
   font-size: 72px;
   color: #E67E22;
   line-height: 72px;
@@ -88,7 +88,7 @@ h4 {
 
 .page-header .at-the {
   display: block;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 17px;
   color: #BBB;
   line-height: 17px;
@@ -103,7 +103,7 @@ h4 {
 .page-header .expand {
   text-transform:uppercase;
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 47px;
   color: #4A4A4A;
   line-height: 54px;
@@ -124,7 +124,7 @@ h4 {
 .page-header .past-talks {
   text-transform:uppercase;
   padding-top: 75px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   line-height: 21px;
   letter-spacing: 5px;
@@ -148,7 +148,7 @@ h4 {
 }
 
 .thumb p.speaker-name {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
   color: #777;
   line-height: 24px;
@@ -199,11 +199,11 @@ h4 {
 
 
 .description h3 {
-  font-weight: 200;
+  font-weight: 300;
   text-transform:uppercase;
   font-size: 33px;
   color: #FFFFFF;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 40px;
 }
 
@@ -219,7 +219,7 @@ h4 {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 30px;
   font-size: 23px;
   line-height: 29px;
@@ -232,7 +232,7 @@ h4 {
 .three-up .make {
   display: block;
   text-transform:uppercase;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 42px;
   color: #4A4A4A;
   line-height: 54px;
@@ -261,7 +261,7 @@ h4 {
   font-size: 35px;
   color: #4A4A4A;
   line-height: 42px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .three-up h3 strong {
@@ -273,7 +273,7 @@ h4 {
 }
 
 .three-up p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 22px;
   color: #4A4A4A;
   line-height: 34px;
@@ -284,7 +284,7 @@ h4 {
   font-size: 32px;
   color: #FFFFFF;
   line-height: 38px;
-  font-weight:300;
+  font-weight:400;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -295,7 +295,7 @@ h4 {
 
 .three-up .button p {
   margin-top:15px;
-  font-weight: 200px;
+  font-weight: 300px;
   font-size: 18px;
   color: #4A4A4A;
   line-height: 19px;
@@ -309,14 +309,14 @@ h4 {
 }
 
 .quotes h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 59px;
   color: #FFFFFF;
   line-height: 72px;
 }
 
 .quotes p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 29px;
   color: #FFF;
   line-height: 29px;
@@ -326,7 +326,7 @@ h4 {
 
 .recent-photos h3 {
   text-transform:uppercase;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   line-height: 21px;
   letter-spacing: 5px;
@@ -359,14 +359,14 @@ h4 {
 
 /* CWC */
 .cwc h3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   color: #3498DB;
   line-height: 30px;
 }
 
 .cwc p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   color: #444;
   line-height: 33px;
@@ -378,7 +378,7 @@ h4 {
 }
 
 .cwc .orange {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 21px;
   color: #FB9E4A;
   line-height: 33px;
@@ -398,7 +398,7 @@ h4 {
   font-size: 37px;
   color: #4A4A4A;
   line-height: 44px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .conversation h3 strong {
@@ -426,7 +426,7 @@ h4 {
   font-size: 32px;
   color: #FFFFFF;
   line-height: 38px;
-  font-weight:300;
+  font-weight:400;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -437,11 +437,19 @@ h4 {
 
 .conversation .button p {
   margin-top:15px;
-  font-weight: 200px;
+  font-weight: 300px;
   font-size: 18px;
   color: #4A4A4A;
   line-height: 19px;
 }
+
+@media (min-width: 992px) {
+
+  .padded {
+    padding: 80px 0px 90px 0px;
+  }
+}
+
 
 
 /* Stay Informed */
@@ -470,7 +478,7 @@ h4 {
 }
 
 .stay-informed p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
   color: #4A4A4A;
   line-height: 21px;
@@ -497,13 +505,13 @@ h4 {
 /* Page footer */
 
 .page-footer {
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .page-footer p {
   color: #FFFFFF;
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 17px;
   line-height: 21px;
 }
