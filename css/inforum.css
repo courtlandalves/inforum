@@ -349,7 +349,7 @@ h4 {
   margin-top:30px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 991px) {
   .description { 
     background: #000 url('/images/background-crowd.jpg');
     background-size: 100%;
@@ -503,7 +503,7 @@ h4 {
   background-position: top;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 991px){
   .quotes { 
     background: #000 url('/images/inforum-light.jpg');
     background-size: 100%;
@@ -699,16 +699,31 @@ h4 {
   background-position: bottom;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 1113px) {
 
   .stay-informed {
     background: #000 url('/images/gg-park.jpg');
-    background-size: 100%;
+    background-size: auto 100%;
     background-position: top;
   }
 
 }
 
+@media (min-width: 1114px) {
+
+  .stay-informed {
+    background: #000 url('/images/gg-park.jpg');
+    background-size: 100%;
+  }
+
+}
+@media (min-width: 992px) {
+
+  .stay-informed .container {
+    padding-top: 0px;
+  }
+
+}
 .blue-alpha {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -718,13 +733,7 @@ h4 {
   padding-bottom: 30px;
 }
 
-@media (min-width: 992px) {
 
-.stay-informed .container {
-  padding-top: 0px;
-}
-
-}
 
 .stay-informed h4 {
   text-transform:uppercase;
