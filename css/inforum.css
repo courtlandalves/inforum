@@ -369,7 +369,7 @@ h4 {
   padding-bottom: 20px;
   font-weight: 300;
   margin-top: 30px;
-  font-size: 23px;
+  font-size: 26px;
   line-height: 29px;
   background: #3498DB;
   border-radius: 8px;
@@ -582,9 +582,9 @@ h4 {
 
 .conversation h3 {
   text-transform:uppercase;
-  font-size: 37px;
+  font-size: 34px;
   color: #4A4A4A;
-  line-height: 44px;
+  line-height: 40px;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -609,13 +609,13 @@ h4 {
 }
 
 .conversation .btn {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 38px;
   color: #FFFFFF;
   font-weight:300;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   background: #3498DB;
   border-radius: 8px;
   border-color: #3498DB;
