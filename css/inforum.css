@@ -63,15 +63,22 @@ h4 {
 }
 
 /* Header */
+
+
 .page-header {
   border-bottom: 0px solid; /* Overriding default for bootstrap */
-  margin-top: 20px;
+  margin-top: 5px;
+}
+
+.page-header .row {
+  text-align: center;
 }
 
 .page-header .logo {
-  height: 56px;
+  height: 40px;
+  width: 40px;
   vertical-align: top;
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .page-header .text {
@@ -80,24 +87,24 @@ h4 {
 
 .page-header .inforum {
   font-weight:400;
-  font-size: 72px;
+  font-size: 48px;
   color: #E67E22;
-  line-height: 72px;
-  display: block;
+  line-height: 48px;
 }
 
 .page-header .at-the {
   display: block;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 15px;
   color: #BBB;
   line-height: 17px;
   letter-spacing: 0px;
-  margin-left: 5px;
+  white-space: normal;
 }
 
 .page-header .social {
   padding-top:20px;
+  display: inline-block;
 }
 
 .page-header .expand {
@@ -119,6 +126,68 @@ h4 {
   color: #3498DB;
   line-height: 47px;
   font-weight: 800;
+}
+
+@media (min-width: 992px) {
+
+  .logo-box {
+    text-align: left;
+  }
+
+  .page-header .logo {
+    height: 56px;
+    width: 56px;
+    vertical-align: top;
+    margin-top: 12px;
+  }
+
+  .page-header .text {
+    display: inline-block;
+  }
+
+  .page-header .inforum {
+    text-align: left;
+    font-weight:400;
+    font-size: 72px;
+    color: #E67E22;
+    line-height: 72px;
+  }
+
+  .page-header .at-the {
+    display: block;
+    font-weight: 300;
+    font-size: 17px;
+    color: #BBB;
+    line-height: 17px;
+    letter-spacing: 0px;
+    margin-left: 65px;
+  }
+
+  .page-header .social {
+    padding-top:20px;
+    float: right!important;
+  }
+
+  .page-header .expand {
+    text-transform:uppercase;
+    display: block;
+    font-weight: 400;
+    font-size: 47px;
+    color: #4A4A4A;
+    line-height: 47px;
+    letter-spacing: 12px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+
+  .page-header .meet {
+    display: block;
+    text-transform:uppercase;
+    font-size: 47px;
+    color: #3498DB;
+    line-height: 47px;
+    font-weight: 800;
+  }
 }
 
 .page-header .past-talks {
@@ -170,26 +239,6 @@ h4 {
   line-height: 23px;
   margin: 0px;
 } 
-
-#tile1, #tile2, #tile3 {
-  display: none;
-}
-
-@media (min-width: 768px) {
-
-  .page-header .inforum {
-    font-size: 72px;
-  }
- 
-  .page-header h2 {
-    font-size: 47px;
-    line-height: 45px;
-  }
-
-  #tile1, #tile2, #tile3 {
-    display: block;
-  }
-}
 
 /* Description */
 .description {
