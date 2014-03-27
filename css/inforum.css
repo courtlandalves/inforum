@@ -480,8 +480,23 @@ h4 {
 /* Quotes */
 
 .quotes { 
-  background: #000 url('/images/inforum-light.jpg') repeat fixed;
-  background-size: 100%;
+  background: #000 url('/images/inforum-light.jpg');
+  background-size: auto 100%;
+  background-position: top;
+}
+
+@media (min-width: 500px) {
+  .quotes { 
+    background: #000 url('/images/inforum-light.jpg');
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .quotes { 
+    background: #000 url('/images/inforum-light.jpg') repeat fixed;
+    background-size: 100%;
+  }
 }
 
 .quotes h2 {
