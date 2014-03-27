@@ -651,6 +651,14 @@ h4 {
   padding-bottom: 30px;
 }
 
+@media (min-width: 992px) {
+
+.stay-informed .container {
+  padding-top: 0px;
+}
+
+}
+
 .stay-informed h4 {
   text-transform:uppercase;
   font-weight: 600;
@@ -699,7 +707,7 @@ h4 {
   color: #FFFFFF;
   text-align: center;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 12px;
   line-height: 21px;
 }
 
@@ -711,6 +719,18 @@ h4 {
   padding-left: 20px;
   padding-right: 20px;
   color: #FFF;
+}
+
+@media (min-width: 992px) {
+
+  .page-footer p {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+  }
+
 }
 
 /* Social Icons */
