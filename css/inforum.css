@@ -68,6 +68,7 @@ h4 {
 .page-header {
   border-bottom: 0px solid; /* Overriding default for bootstrap */
   margin-top: 5px;
+  margin-bottom: 70px;
 }
 
 .page-header .row {
@@ -198,7 +199,7 @@ h4 {
   line-height: 21px;
   letter-spacing: 5px;
   color: #666;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .page-header .past-talks strong {
@@ -217,7 +218,7 @@ h4 {
 }
 
 .thumb p.speaker-name {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   color: #777;
   line-height: 24px;
@@ -233,7 +234,7 @@ h4 {
 }
 
 .thumb p.program-title {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   color: #777;
   line-height: 23px;
@@ -426,16 +427,17 @@ h4 {
 /* CWC */
 .cwc h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 34px;
   color: #3498DB;
   line-height: 30px;
+    text-align: center;
 }
 
 .cwc p {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   color: #444;
-  line-height: 33px;
+  line-height: 36px;
   margin-top: 30px;
 }
 
@@ -445,13 +447,14 @@ h4 {
 
 .cwc .orange {
   font-weight: 300;
-  font-size: 21px;
+  font-size: 24px;
   color: #FB9E4A;
   line-height: 33px;
+  text-align: center;
 }
 
 .cwc .orange strong {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 500;
   color: #FB9E4A;
 }
@@ -465,6 +468,7 @@ h4 {
   color: #4A4A4A;
   line-height: 44px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .conversation h3 strong {
@@ -535,7 +539,7 @@ h4 {
 
 .stay-informed h4 {
   text-transform:uppercase;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 22px;
   color: #FFF;
   line-height: 22px;
@@ -544,7 +548,7 @@ h4 {
 
 .stay-informed p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   color: #FFF;
   line-height: 21px;
   padding-bottom:20px;
@@ -576,7 +580,7 @@ h4 {
 .page-footer p {
   color: #FFFFFF;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
   line-height: 21px;
 }
