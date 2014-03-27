@@ -314,14 +314,6 @@ h4 {
 
 }
 
-/* Description */
-.description {
-  background: #000 url('/images/background-crowd.jpg');
-  background-size: auto 100%;
-  background-position: bottom;
-  margin-top:30px;
-}
-
 .description h3 {
   font-weight: 300;
   text-transform:uppercase;
@@ -337,6 +329,14 @@ h4 {
   color: #FFFFFF;
   line-height: 40px;
   text-transform:uppercase;
+}
+
+/* Description */
+.description {
+  background: #000 url('/images/background-crowd.jpg');
+  background-size: auto 100%;
+  background-position: bottom;
+  margin-top:30px;
 }
 
 @media (min-width: 500px) {
