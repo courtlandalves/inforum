@@ -413,20 +413,10 @@ h4 {
 }
 
 .conversation .btn {
-  margin-top: 15px;
-  border-radius: 8px;
-  background: #3498DB;
-  font-size: 32px;
+  font-size: 25px;
   color: #FFFFFF;
   line-height: 38px;
-  padding: 30px;
-}
-
-.conversation .btn {
-  font-size: 32px;
-  color: #FFFFFF;
-  line-height: 38px;
-  font-weight:400;
+  font-weight:300;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -438,16 +428,26 @@ h4 {
 .conversation .button p {
   margin-top:15px;
   font-weight: 300px;
-  font-size: 18px;
+  font-size: 16px;
   color: #4A4A4A;
   line-height: 19px;
 }
 
 @media (min-width: 992px) {
 
-  .padded {
-    padding: 80px 0px 90px 0px;
+  .conversation .btn {
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 38px;
+    font-weight:400;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #3498DB;
+    border-radius: 8px;
+    border-color: #3498DB;
   }
+  
 }
 
 
