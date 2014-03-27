@@ -72,7 +72,8 @@ $(function(){
 
 $(document).ready(function(){
   if(window.innerWidth > 992) {
-    $('.cwc').parallax("50%", 0.1);
-    $('.description').parallax("70%", 0.1);
+    $('.stay-informed').parallax("50%", 0.1);
+    $('.description').parallax("50%", 0.1);
+    $('.quotes').parallax("50%", 0.1);
   }
 });
