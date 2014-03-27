@@ -280,17 +280,34 @@ h4 {
 }
 
 .three-up .btn {
-  margin-top: 90px;
-  font-size: 32px;
-  color: #FFFFFF;
-  line-height: 38px;
-  font-weight:400;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 23px;
+  line-height: 29px;
   background: #3498DB;
   border-radius: 8px;
   border-color: #3498DB;
+}
+
+
+
+@media (min-width: 992px) {
+  .three-up .btn {
+    margin-top: 90px;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 38px;
+    font-weight:400;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #3498DB;
+    border-radius: 8px;
+    border-color: #3498DB;
+  }
 }
 
 .three-up .button p {
