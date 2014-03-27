@@ -112,20 +112,21 @@ h4 {
   text-transform:uppercase;
   display: block;
   font-weight: 400;
-  font-size: 47px;
+  font-size: 32px;
   color: #4A4A4A;
-  line-height: 47px;
+  line-height: 36px;
   letter-spacing: 12px;
   padding-top: 70px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .page-header .meet {
   display: block;
   text-transform:uppercase;
-  font-size: 47px;
+  font-size: 32px;
   color: #3498DB;
-  line-height: 47px;
+  letter-spacing: 3px;
+  line-height: 36px;
   font-weight: 800;
 }
 
@@ -188,18 +189,19 @@ h4 {
     color: #3498DB;
     line-height: 47px;
     font-weight: 800;
+    letter-spacing: 0px;
   }
 }
 
 .page-header .past-talks {
   text-transform:uppercase;
-  padding-top: 75px;
+  padding-top: 50px;
   font-weight: 300;
   font-size: 17px;
   line-height: 21px;
   letter-spacing: 5px;
   color: #666;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .page-header .past-talks strong {
@@ -312,16 +314,6 @@ h4 {
   margin-top:30px;
 }
 
-@media (min-width: 992px) {
-  /* Description */
-  .description {
-    background: #000 url('/images/background-crowd.jpg') repeat fixed;
-    background-size: 100%;
-    margin-top:80px;
-  }
-}
-
-
 .description h3 {
   font-weight: 300;
   text-transform:uppercase;
@@ -329,15 +321,40 @@ h4 {
   color: #FFFFFF;
   font-weight: 300;
   line-height: 40px;
+  margin: 10px;
 }
 
 .description h3 strong {
-  font-weight: 500;
+  font-weight: 600;
   color: #FFFFFF;
   line-height: 40px;
-  font-size: 33px;
   text-transform:uppercase;
 }
+
+@media (min-width: 992px) {
+  /* Description */
+  .description {
+    background: #000 url('/images/background-crowd.jpg') repeat fixed;
+    background-size: 100%;
+    margin-top:80px;
+  }
+  
+  .description h3 {
+    font-weight: 300;
+    text-transform:uppercase;
+    font-size: 33px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 40px;
+  }
+  
+  .description h3 strong {
+    font-weight: 600;
+  }
+}
+
+
+
 
 .description .btn {
   width: 100%;
@@ -360,6 +377,7 @@ h4 {
   font-size: 42px;
   color: #4A4A4A;
   line-height: 42px;
+  padding-bottom: 20px;
 }
 
 .three-up .connect {
@@ -369,7 +387,7 @@ h4 {
   color: #3498DB;
   line-height: 47px;
   font-weight: 800;
-  margin-bottom:90px;
+  margin-bottom:50px;
 }
 
 .three-up img {
@@ -401,6 +419,7 @@ h4 {
   font-size: 22px;
   color: #4A4A4A;
   line-height: 34px;
+  margin-bottom: 50px;
 }
 
 .three-up .btn {
@@ -432,6 +451,14 @@ h4 {
     border-radius: 8px;
     border-color: #3498DB;
   }
+  
+  .three-up .make {
+    padding-bottom: 10px;
+  }
+  
+  .three-up p {
+      margin-bottom: 0px;
+  }
 }
 
 .three-up .button p {
@@ -440,6 +467,7 @@ h4 {
   font-size: 18px;
   color: #4A4A4A;
   line-height: 19px;
+  margin-bottom: 0px;
 }
 
 /* Quotes */
@@ -497,8 +525,8 @@ h4 {
   font-weight: 400;
   font-size: 34px;
   color: #3498DB;
-  line-height: 30px;
-    text-align: center;
+  line-height: 42px;
+  text-align: center;
 }
 
 .cwc p {
@@ -637,6 +665,10 @@ h4 {
   border-radius: 8px;
   border: 2px solid #3498DB;
   height: 53px;  
+}
+
+.bottom-actions h4 {
+  padding-top: 50px;
 }
 
 /* Page footer */
