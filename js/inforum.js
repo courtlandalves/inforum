@@ -6,11 +6,13 @@ $.get( "https://graph.facebook.com/INFORUMsf/albums", function (albums) {
 
     var photosReplaced = 0;
 
-    if ( album.name != "Cover Photos" && album.name != "Timeline Photos" && album.name != "Profile Pictures") {
+    if ( album.cover_photo && album.name != "Cover Photos" && album.name != "Timeline Photos" && album.name != "Profile Pictures") {
 
       $.get("https://graph.facebook.com/" + album.cover_photo, function (photo) {
-
-        if ( photosReplaced < 3 ) {
+        
+        var ratio = (photo.width + 0.0) / photo.height;
+        if ( photosReplaced < 3 && Math.abs(ratio - 1.5) < .1 ) { // Making sure that ratio is close to a size we like
+          console.log(ratio);
           $("#event_" + photosReplaced).attr("src", photo.source);
           photosReplaced++;
         }
