@@ -193,16 +193,18 @@
 
     <script id="upcoming-template" type="text/x-handlebars-template">
 
-      <div class="row upcoming-item">
-        <div class="col-sm-2 text-left">
-          <img src="{{imageurl}}">
+      <a href="{{clickurl}}">
+        <div class="row upcoming-item">
+          <div class="col-sm-2 text-left">
+            <img src="{{imageurl}}">
+          </div>
+          <div class="col-sm-10 text-left">
+            <h4>{{programtitle}}</h4>
+            <p>{{dateandlocation}}</p>
+            <div class="btn btn-sm btn-warning">Get Tickets</div>
+          </div>
         </div>
-        <div class="col-sm-10 text-left">
-          <h4>{{programtitle}}</h4>
-          <p>{{dateandlocation}}</p>
-          <a href="{{clickurl}}" class="btn btn-sm btn-warning">Get Tickets</a>
-        </div>
-      </div>
+      </a>
 
     </script>
 
