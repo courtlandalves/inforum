@@ -38,11 +38,10 @@ p.text-primary:hover {
 .btn-warning {
   background: #F99000;
   border-color: #F99000; 
-  font-family: Lato;
-  font-size: 19px;
+  font-family: Lato-Regular;
+  font-size: 15px;
   color: #FFFFFF;
-  line-height: 23px;
-  letter-spacing: 0px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
@@ -163,11 +162,15 @@ p.text-primary:hover {
   font-weight: 300;
   font-size: 18px;
   color: #FFFFFF;
-  line-height: 22px;
+  line-height: 18px;
 }
 
 .upcoming .upcoming-item a {
   text-transform:uppercase;
+}
+
+.upcoming-item .col-sm-2 {
+  padding: 0 4px 0 0;
 }
 
 .upcoming h4.see-more {
@@ -181,7 +184,7 @@ p.text-primary:hover {
 }
 
 .upcoming h4.see-more img {
-  padding-left: 50px;
+  padding-left: 8px;
 }
 
 /* Recent Speakers */
@@ -314,4 +317,3 @@ body {
   color: #FFFFFF;
   line-height: 22px;
 }
-
