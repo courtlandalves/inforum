@@ -16,8 +16,9 @@ p {
 }
 
 input.form-control {
-  margin-right: 5px;
-  margin-left: 5px;
+  background: #FFFFFF;
+  margin-right: auto;
+  margin-left: auto;
   width: 98%;
 }
 
@@ -126,6 +127,10 @@ input.form-control {
   margin-bottom: 20px;
 }
 
+.hero .input-lg {
+  width: 350px;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 30px;
@@ -222,6 +227,11 @@ input.form-control {
 .upcoming h4.see-more img {
   padding-left: 8px;
 }
+
+.upcoming a {
+  color: #fff;
+}
+
 
 /* Recent Speakers */
 
@@ -353,6 +363,14 @@ body {
 
 .join-well .form-inline {
   margin-top: 26px;
+}
+
+.join-well .input-lg {
+  border: 2px solid #979797;
+  font-family: Lato-Regular;
+  font-size: 18px;
+  color: #979797;
+  line-height: 22px;
 }
 
 .page-footer {
