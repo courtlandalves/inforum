@@ -30,6 +30,10 @@ p.text-primary:hover {
   border-radius: 0px;
 }
 
+.btn-danger {
+  background: #A00702;
+}
+
 /* Navbar */
 
 .navbar {
@@ -186,19 +190,10 @@ p.text-primary:hover {
   font-weight: bold;
 }
 
-/* Commonwealth Club */
-.cwc p{
-  font-family: Lato-Bold;
-  font-size: 15px;
-  color: #484848;
-  line-height: 33px;
-}
-
-
 /* Join */
 
 .join {
-  background: #3498DB;
+  background: #A00702;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -210,31 +205,60 @@ p.text-primary:hover {
   line-height: 40px;
 }
 
+/* Commonwealth Club */
+
+.cwc {
+  padding-top: 50px;
+}
+
+.cwc p{
+  font-family: Lato-Bold;
+  font-size: 15px;
+  color: #484848;
+  line-height: 33px;
+}
+
+.cwc h2 {
+  margin-top: 0px;
+  font-family: Lato-Black;
+  font-size: 41px;
+  color: #484848;
+  line-height: 47px;
+  letter-spacing: 8px;
+}
+
+.cwc .quote {
+  font-family: Lato-Light;
+  font-size: 15px;
+  color: #484848;
+  line-height: 21px;
+  padding-bottom: 15px;
+}
+
 .stay-informed {
   background: #000 url('/images/gg-park.jpg');
   background-size: auto 100%;
   background-position: bottom;
 }
 
-.blue-alpha {
-  background-color: rgba(0, 0, 0, 0.6);
+.join-well .border {
+  border: solid;
 }
 
-.stay-informed .email {
-  border-radius: 4px;
-  background: #FFFFFF;
-  border: 1px solid #979797;
-  height: 53px;  
-  margin-right: 10px;
+.join-well h3 {
+  text-transform:uppercase;
+  font-family: Lato-Black;
+  font-size: 17px;
+  color: #484848;
+  line-height: 21px;
+  letter-spacing: 4px;
 }
 
-.stay-informed .btn {
-  font-size: 21px;
-  background: #3498DB;
+.join-well p {
+  font-family: Lato-Regular;
+  font-size: 20px;
+  color: #484848;
   line-height: 26px;
-  border-radius: 8px;
-  border: 2px solid #3498DB;
-  height: 53px;  
 }
 
 .bottom-actions h4 {
