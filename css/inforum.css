@@ -261,55 +261,14 @@ p.text-primary:hover {
   line-height: 26px;
 }
 
-.bottom-actions h4 {
-  padding-top: 50px;
-}
-
-/* Page footer */
-
 .page-footer {
-  margin-top: 400px;
+  margin-top: 75px;
+  background: rgba(0,0,0,0.76);
 }
 
-/* Social Icons */
-.social-icon-top {
-  height:32px;
-  width:32px;
-  display:inline-block;
+.page-footer p, .page-footer a{
+  font-family: Lato-Light;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 22px;
 }
-
-.social-icon-bottom {
-  height:48px;
-  width:48px;
-  display:inline-block;
-}
-
-.image-top {
-  width: 32px;
-  height: 32px;
-  position: relative;
-}
-
-.image-bottom {
-  width: 48px;
-  height: 48px;
-  position: relative;
-}
-
-.instagram-icon {
-  background: url('/images/instagram.png');
-  background-size: 100%;
-}
-
-.twitter-icon {
-  background: url('/images/twitter.png');
-  background-size: 100%;
-}
-
-.facebook-icon {
-  background: url('/images/facebook.png');
-  background-size: 100%;
-}
-
-
-
