@@ -219,6 +219,11 @@ input.form-control {
   padding-left: 8px;
 }
 
+.upcoming a {
+  color: #fff;
+}
+
+
 /* Recent Speakers */
 
 .recent {
