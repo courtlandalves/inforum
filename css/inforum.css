@@ -30,8 +30,14 @@ p.text-primary:hover {
   border-radius: 0px;
 }
 
+.btn-lg {
+  padding: 11px 16px 12px;
+  margin-left: 5px;
+}
+
 .btn-warning {
   background: #F99000;
+  border-color: #F99000; 
   font-family: Lato-Regular;
   font-size: 15px;
   color: #FFFFFF;
@@ -41,6 +47,7 @@ p.text-primary:hover {
 
 .btn-danger {
   background: #A00702;
+  border-color: #A00702;
   border: none;
   font-family: Lato;
   font-weight: 700;
