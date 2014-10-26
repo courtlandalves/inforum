@@ -32,6 +32,14 @@ p.text-primary:hover {
 
 .btn-danger {
   background: #A00702;
+  border: none;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 19px;
+  color: #FFFFFF;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
 }
 
 /* Navbar */
@@ -55,7 +63,8 @@ p.text-primary:hover {
 
 .navbar a {
   text-transform:uppercase;
-  font-family: Lato-Bold;
+  font-family: Lato;
+  font-weight: 700;
   font-size: 12px;
   color: #4A4A4A;
   line-height: 15px;
@@ -73,7 +82,8 @@ p.text-primary:hover {
 
 .hero h1 {
   text-transform: uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 41px;
   color: #FFFFFF;
   line-height: 47px;
@@ -84,7 +94,8 @@ p.text-primary:hover {
 
 .hero h4 {
   text-transform: uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 17px;
   color: #FFFFFF;
   line-height: 21px;
@@ -99,7 +110,8 @@ p.text-primary:hover {
 }
 
 .description h2 {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 33px;
   color: #4A4A4A;
   line-height: 40px;
@@ -114,7 +126,8 @@ p.text-primary:hover {
 
 .upcoming h3 {
   text-transform:uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 41px;
   color: #FFFFFF;
   line-height: 47px;
@@ -126,14 +139,16 @@ p.text-primary:hover {
 }
 
 .upcoming .upcoming-item h4 {
-  font-family: Lato-Bold;
+  font-family: Lato;
+  font-weight: 700;
   font-size: 30px;
   color: #FFFFFF;
   line-height: 35px;
 }
 
 .upcoming .upcoming-item p {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 18px;
   color: #FFFFFF;
   line-height: 22px;
@@ -145,7 +160,8 @@ p.text-primary:hover {
 
 .upcoming h4.see-more {
   text-transform:uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 17px;
   color: #FFFFFF;
   line-height: 21px;
@@ -161,7 +177,8 @@ p.text-primary:hover {
 
 .recent h2 {
   text-transform:uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 41px;
   color: #484848;
   line-height: 47px;
@@ -169,14 +186,16 @@ p.text-primary:hover {
 }
 
 .recent h4 {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 25px;
   color: #4A4A4A;
   line-height: 30px;
 }
 
 .recent .recent-item {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 18px;
   color: #979797;
   line-height: 26px;
@@ -199,7 +218,8 @@ p.text-primary:hover {
 }
 
 .join h2 {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 33px;
   color: #FFFFFF;
   line-height: 40px;
@@ -212,7 +232,8 @@ p.text-primary:hover {
 }
 
 .cwc p{
-  font-family: Lato-Bold;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 15px;
   color: #484848;
   line-height: 33px;
@@ -220,7 +241,8 @@ p.text-primary:hover {
 
 .cwc h2 {
   margin-top: 0px;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 41px;
   color: #484848;
   line-height: 47px;
@@ -228,7 +250,8 @@ p.text-primary:hover {
 }
 
 .cwc .quote {
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 15px;
   color: #484848;
   line-height: 21px;
@@ -247,7 +270,8 @@ p.text-primary:hover {
 
 .join-well h3 {
   text-transform:uppercase;
-  font-family: Lato-Black;
+  font-family: Lato;
+  font-weight: 900;
   font-size: 17px;
   color: #484848;
   line-height: 21px;
@@ -310,6 +334,3 @@ p.text-primary:hover {
   background: url('/images/facebook.png');
   background-size: 100%;
 }
-
-
-
