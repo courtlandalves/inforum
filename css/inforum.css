@@ -198,7 +198,7 @@ p.text-primary:hover {
   font-weight: 300;
   font-size: 18px;
   color: #979797;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 .recent .recent-item .month {
@@ -291,7 +291,8 @@ p.text-primary:hover {
 }
 
 .page-footer p, .page-footer a{
-  font-family: Lato-Light;
+  font-family: Lato;
+  font-weight: 300;
   font-size: 14px;
   color: #FFFFFF;
   line-height: 22px;
