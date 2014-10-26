@@ -49,16 +49,7 @@ p.text-primary:hover {
 }
 
 .navbar .logo {
-  height: 30px;
-  width: 30px;
   vertical-align: top;
-}
-
-.navbar .inforum {
-  font-weight:400;
-  font-size: 35px;
-  color: #E67E22;
-  line-height: 35px;
 }
 
 .navbar a {
@@ -75,7 +66,7 @@ p.text-primary:hover {
 /* Hero */
 
 .hero {
-  background: #000 url('/images/background-crowd.jpg');
+  background: #000 url('/images/on-stage-edge-dark.jpg');
   background-size: auto 100%;
   background-position: bottom;
 }
@@ -120,8 +111,10 @@ p.text-primary:hover {
 /* Upcoming */
 
 .upcoming {
-  background: #000 url('/images/background-crowd.jpg');
-  background-size: auto 100%;
+  background: #000 url('/images/castro-theatre-dark.jpg');
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .upcoming h3 {
@@ -258,9 +251,10 @@ p.text-primary:hover {
   padding-bottom: 15px;
 }
 
-.stay-informed {
-  background: #000 url('/images/gg-park.jpg');
-  background-size: auto 100%;
+body {
+  background: #fff url('/images/gg-park.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: bottom;
 }
 
