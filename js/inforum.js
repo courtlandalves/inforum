@@ -4,6 +4,7 @@ $.get( "https://graph.facebook.com/INFORUMsf/albums", function (albums) {
   for ( var albumIndex = 0; albumIndex < albums.data.length; albumIndex++ ) {
     var album = albums.data[albumIndex];
 
+    var photosToReplace = 6;
     var photosReplaced = 0;
 
     if ( album.cover_photo && album.name != "Cover Photos" && album.name != "Timeline Photos" && album.name != "Profile Pictures") {
@@ -11,7 +12,7 @@ $.get( "https://graph.facebook.com/INFORUMsf/albums", function (albums) {
       $.get("https://graph.facebook.com/" + album.cover_photo, function (photo) {
         
         var ratio = (photo.width + 0.0) / photo.height;
-        if ( photosReplaced < 3 && Math.abs(ratio - 1.5) < .1 ) { // Making sure that ratio is close to a size we like
+        if ( photosReplaced < photosToReplace && Math.abs(ratio - 1.5) < .1 ) { // Making sure that ratio is close to a size we like
           $("#event_" + photosReplaced).attr("src", photo.source);
           photosReplaced++;
         }
@@ -23,48 +24,39 @@ $.get( "https://graph.facebook.com/INFORUMsf/albums", function (albums) {
   }
 });
 
-function shuffle(array) {
+function renderGoogleData(data, tabletop) {
 
-  var currentIndex = array.length
-    , temporaryValue
-    , randomIndex
-    ;
+  renderUpcoming(data.upcoming);
+  renderRecent(data.recent);
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
 }
 
-function drawSpeakerMatrix(data, tabletop) {
+function renderUpcoming(upcoming) {
 
-  googleDocData = data;
-
-  var source = $("#fliptile-template").html();
+  var source = $("#upcoming-template").html();
   var template = Handlebars.compile(source);
 
-  var fliptileDataShuffled = googleDocData;//shuffle(googleDocData);
-
-  for (var i = 0; i < fliptileDataShuffled.length; i++) {
-    $("#tile" + i).append(template(fliptileDataShuffled[i]));
-  };
-
+  for (var i = 0; i < upcoming.elements.length; i++) {
+    $("#upcoming-items").append( template(upcoming.elements[i]) );
+  }
+  
 }
 
-$(function(){
-  Tabletop.init( { key: '0Arjh_9mskXPsdEJTcDduN1hhT053TGpTQWdDZVJVclE',
-    callback: drawSpeakerMatrix,
-  simpleSheet: true } )
+function renderRecent(recent) {
+
+  var source = $("#recent-template").html();
+  var template = Handlebars.compile(source);
+
+  for (var i = 0; i < recent.elements.length; i++) {
+    $("#recent-items").append( template(recent.elements[i]) );
+  }
+  
+}
+$( function() {
+  Tabletop.init( { 
+    key: '0Arjh_9mskXPsdEJTcDduN1hhT053TGpTQWdDZVJVclE',
+    callback: renderGoogleData
+  } );
 });
 
 /* *************************************** */  

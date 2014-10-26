@@ -1,12 +1,11 @@
 * {
   font-family: 'Lato', sans-serif !important;
-  color:#333;
 }
 
 /* Customize container */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .container {
-    max-width: 950;
+    max-width: 768;
   }
 }
 
@@ -27,688 +26,189 @@ p.text-primary:hover {
   color: #008BF5;
 }
 
-h3 {
-  color: #4A4A4A;
+.btn, .form-control {
+  border-radius: 0px;
 }
 
-h2 {
-  font-size: 37px;
-  font-weight: 700;
-  color: #4A4A4A;
-  line-height: 45px;
-}
+/* Navbar */
 
-h4 {
-  font-size: 20px;
-  line-height: 1.4em;
-  padding: 10px 0 10px 0;
-  color: #333;
-}
-
-/* Applies a grey border to a div */
-.grey-border {
-  background: #FFFFFF;
-  border: 1px solid #979797;
-}
-
-.padded { 
-  padding: 40px 0px 45px 0px;
-}
-
-@media (min-width: 992px) {
-
-  .padded {
-    padding: 80px 0px 90px 0px;
-  }
-}
-
-/* Header */
-
-
-.page-header {
-  border-bottom: 0px solid; /* Overriding default for bootstrap */
-  margin-top: 5px;
-  margin-bottom: 70px;
-}
-
-.page-header .row {
-  text-align: center;
-}
-
-.page-header .logo {
-  height: 40px;
-  width: 40px;
-  vertical-align: top;
-  margin-top: 5px;
-}
-
-.page-header .text {
-  display: inline-block;
-}
-
-.page-header .inforum {
-  font-weight:400;
-  font-size: 48px;
-  color: #E67E22;
-  line-height: 48px;
-}
-
-.page-header .at-the {
-  display: block;
-  font-weight: 300;
-  font-size: 15px;
-  color: #BBB;
-  line-height: 17px;
-  letter-spacing: 0px;
-  white-space: normal;
-}
-
-.page-header .social {
-  padding-top:20px;
-  display: inline-block;
-}
-
-.page-header .expand {
-  text-transform:uppercase;
-  display: block;
-  font-weight: 400;
-  font-size: 30px;
-  color: #4A4A4A;
-  line-height: 36px;
-  letter-spacing: 12px;
-  padding-top: 70px;
-  padding-bottom: 10px;
-}
-
-.page-header .meet {
-  display: block;
-  text-transform:uppercase;
-  font-size: 30px;
-  color: #3498DB;
-  letter-spacing: 3px;
-  line-height: 36px;
-  font-weight: 800;
-  padding-bottom: 50px;
-}	
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-@media (min-width: 992px) {
-
-  .logo-box {
-    text-align: left;
-  }
-
-  .page-header .logo {
-    height: 56px;
-    width: 56px;
-    vertical-align: top;
-    margin-top: 12px;
-  }
-
-  .page-header .text {
-    display: inline-block;
-  }
-
-  .page-header .inforum {
-    text-align: left;
-    font-weight:400;
-    font-size: 72px;
-    color: #E67E22;
-    line-height: 72px;
-  }
-
-  .page-header .at-the {
-    display: block;
-    font-weight: 300;
-    font-size: 17px;
-    color: #BBB;
-    line-height: 17px;
-    letter-spacing: 0px;
-    margin-left: 65px;
-  }
-
-  .page-header .social {
-    padding-top:20px;
-    float: right!important;
-  }
-
-  .page-header .expand {
-    text-transform:uppercase;
-    display: block;
-    font-weight: 400;
-    font-size: 47px;
-    color: #4A4A4A;
-    line-height: 47px;
-    letter-spacing: 12px;
-    padding-top: 70px;
-    padding-bottom: 10px;
-  }
-
-  .page-header .meet {
-    display: block;
-    text-transform:uppercase;
-    font-size: 47px;
-    color: #3498DB;
-    line-height: 47px;
-    font-weight: 800;
-    letter-spacing: 0px;
-    padding-bottom: 50px;
-  }
-  
-  
-  .page-header .past-talks {
-    text-transform:uppercase;
-    padding-top: 50px;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: 5px;
-    color: #666;
-    padding-bottom: 10px;
-  }
-}
-
-.page-header .past-talks {
-  text-transform:uppercase;
-  padding-top: 50px;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 5px;
-  color: #666;
-}
-
-.page-header .past-talks strong {
-  font-weight: 700;
-  color: #666;
-}
-
-.thumb {
-  height: 80px;
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.thumb img {
-  width: 64px;
-  height:64px;
-  margin-left:-7px;
-  margin-right:15px;
-  vertical-align: middle;
-}
-
-.thumb .thumb-detail {
-  display: inline-block;
-  width: 70%;
-  vertical-align: middle;
-}
-
-.thumb p.speaker-name {
-  text-align: left;
-  font-weight: 300;
-  font-size: 20px;
-  color: #777;
-  line-height: 21px;
+.navbar {
   margin-bottom: 0px;
-  margin-top: 0px;
 }
 
-.thumb p.speaker-detail {
-  display:none;
-  text-align: left;
-  font-size: 14px;
-  color: #777;
-  line-height: 15px;
-  margin: 0px;
+.navbar .logo {
+  height: 30px;
+  width: 30px;
+  vertical-align: top;
 }
 
-.thumb p.program-title {
-  text-align: left;
-  font-weight: 600;
-  font-size: 14px;
-  color: #777;
-  line-height: 15px;
-  margin: 0px;
-} 
-
-@media (min-width: 992px) {
-
-  .thumb {
-    height: 250px;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .thumb img {
-    width: 162px;
-    height:162px;
-    vertical-align: middle;
-    margin-left:0px;
-    margin-right:0px;
-  }
-
-  .thumb .thumb-detail {
-    display: block;
-    width: 100%;
-    vertical-align: top;
-  }
-
-  .thumb p.speaker-name {
-    text-align: center;
-    font-weight: 400;
-    font-size: 20px;
-    color: #777;
-    line-height: 24px;
-    margin-bottom: 0px;
-    margin-top: 15px;
-  }
-
-  .thumb p.speaker-detail {
-        display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #777;
-    line-height: 23px;
-    margin: 0px;
-  }
-
-  .thumb p.program-title {
-    display: block;
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
-    color: #777;
-    line-height: 23px;
-    margin: 0px;
-  } 
-
+.navbar .inforum {
+  font-weight:400;
+  font-size: 35px;
+  color: #E67E22;
+  line-height: 35px;
 }
 
-.description h3 {
-  font-weight: 300;
+.navbar a {
   text-transform:uppercase;
-  font-size: 33px;
-  color: #FFFFFF;
-  font-weight: 300;
-  line-height: 40px;
-  margin: 10px;
+  font-family: Lato-Bold;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 15px;
+  letter-spacing: 1px;
 }
 
-.description h3 strong {
-  font-weight: 600;
-  color: #FFFFFF;
-  line-height: 40px;
-  text-transform:uppercase;
-}
 
-/* Description */
-.description {
+/* Hero */
+
+.hero {
   background: #000 url('/images/background-crowd.jpg');
   background-size: auto 100%;
   background-position: bottom;
-  margin-top:30px;
 }
 
-@media (min-width: 500px) and (max-width: 991px) {
-  .description { 
-    background: #000 url('/images/background-crowd.jpg');
-    background-size: 100%;
-    background-position: bottom;
-  }
-}
-
-@media (min-width: 992px) {
-  /* Description */
-  .description {
-    background: #000 url('/images/background-crowd.jpg') repeat fixed;
-    background-size: 100%;
-    margin-top:80px;
-    background-position: bottom;
-  }
-  
-  .description h3 {
-    font-weight: 300;
-    text-transform:uppercase;
-    font-size: 33px;
-    color: #FFFFFF;
-    font-weight: 300;
-    line-height: 40px;
-  }
-  
-  .description h3 strong {
-    font-weight: 600;
-  }
-}
-
-
-.description .btn {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 300;
-  margin-top: 30px;
-  font-size: 26px;
-  line-height: 29px;
-  background: #3498DB;
-  border-radius: 8px;
-  border-color: #3498DB;
-}
-
-/* three up */
-.three-up .make {
-  display: block;
-  text-transform:uppercase;
-  font-weight: 300;
-  font-size: 42px;
-  color: #4A4A4A;
-  line-height: 42px;
-  padding-bottom: 20px;
-}
-
-.three-up .connect {
-  display: block;
-  text-transform:uppercase;
-  font-size: 47px;
-  color: #3498DB;
-  line-height: 47px;
-  font-weight: 800;
-  margin-bottom:50px;
-}
-
-.three-up img {
-  height: 240px;
-  width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.three-up h3 {
-  text-transform:uppercase;
-  font-size: 35px;
-  color: #4A4A4A;
-  line-height: 42px;
-  font-weight: 400;
-}
-
-.three-up h3 strong {
-  text-transform:uppercase;
-  font-size: 35px;
-  color: #4A4A4A;
-  line-height: 42px;
-  font-weight: 600;
-}
-
-.three-up p {
-  font-weight: 300;
-  font-size: 22px;
-  color: #4A4A4A;
-  line-height: 34px;
-  margin-bottom: 50px;
-}
-
-.three-up .btn {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 300;
-  margin-top: 30px;
-  font-size: 23px;
-  line-height: 29px;
-  background: #3498DB;
-  border-radius: 8px;
-  border-color: #3498DB;
-}
-
-
-
-@media (min-width: 992px) {
-  .three-up .btn {
-    margin-top: 90px;
-    font-size: 32px;
-    color: #FFFFFF;
-    line-height: 38px;
-    font-weight:400;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: #3498DB;
-    border-radius: 8px;
-    border-color: #3498DB;
-  }
-  
-  .three-up .make {
-    padding-bottom: 10px;
-  }
-  
-  .three-up p {
-      margin-bottom: 0px;
-  }
-}
-
-.three-up .button p {
-  margin-top:15px;
-  font-weight: 300px;
-  font-size: 18px;
-  color: #4A4A4A;
-  line-height: 19px;
-  margin-bottom: 0px;
-}
-
-/* Quotes */
-
-.quotes { 
-  background: #000 url('/images/inforum-light.jpg');
-  background-size: auto 100%;
-  background-position: top;
-}
-
-@media (min-width: 500px) and (max-width: 991px){
-  .quotes { 
-    background: #000 url('/images/inforum-light.jpg');
-    background-size: 100%;
-    background-position: top;
-  }
-}
-
-@media (min-width: 992px) {
-  /* Description */
-  .quotes {
-    background: #000 url('/images/inforum-light.jpg') repeat fixed;
-    background-size: 100%;
-    background-position: bottom;
-  }
-}
-
-
-.quotes h2 {
-  font-weight: 400;
-  font-size: 59px;
+.hero h1 {
+  text-transform: uppercase;
+  font-family: Lato-Black;
+  font-size: 41px;
   color: #FFFFFF;
-  line-height: 72px;
+  line-height: 47px;
+  letter-spacing: 8px;
+  padding-top: 150px;
+  padding-bottom: 200px;
 }
 
-.quotes p {
-  font-weight: 300;
-  font-size: 29px;
-  color: #FFF;
-  line-height: 29px;
-}
-
-/* Recent Photos */
-
-.recent-photos h3 {
-  text-transform:uppercase;
-  font-weight: 300;
+.hero h4 {
+  text-transform: uppercase;
+  font-family: Lato-Black;
   font-size: 17px;
+  color: #FFFFFF;
   line-height: 21px;
-  letter-spacing: 5px;
-  color: #666;
-  padding-bottom: 10px;
+  letter-spacing: 3px;
 }
 
-.recent-photos h3  strong {
-  font-size: 17px;
-  font-weight: 700;
-  color: #666;
+/* Description */
+
+.description {
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
-.recent-photos img {
-  border: none;
-}
-
-.event-photo-holder {
-  overflow: hidden;
-  margin-top:10px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-/* CWC */
-.cwc h3 {
-  font-weight: 400;
-  font-size: 24px;
-  color: #3498DB;
-  line-height: 32px;
-  text-align: center;
-}
-
-.cwc p {
-  font-weight: 300;
-  font-size: 18px;
-  color: #444;
-  line-height: 32px;
-  margin-top: 30px;
-}
-
-.cwc strong {
-  font-weight: 500;
-}
-
-.cwc .orange {
-  font-weight: 300;
-  font-size: 24px;
-  color: #FB9E4A;
-  line-height: 33px;
-  text-align: center;
-}
-
-.cwc .orange strong {
-  font-weight: 500;
-  color: #FB9E4A;
-}
-
-@media (min-width: 992px) {
-  .cwc h3 {
-    font-weight: 400;
-    font-size: 34px;
-    color: #3498DB;
-    line-height: 42px;
-    text-align: center;
-  }
-  
-  .cwc p {
-    font-weight: 300;
-    font-size: 20px;
-    color: #444;
-    line-height: 36px;
-    margin-top: 30px;
-  }
-  
-  .cwc strong {
-    font-weight: 500;
-  }
-  
-  .cwc .orange {
-    font-weight: 300;
-    font-size: 24px;
-    color: #FB9E4A;
-    line-height: 33px;
-    text-align: center;
-  }
-
-  
-}
-
-/* Conversation */
-
-.conversation h3 {
-  text-transform:uppercase;
-  font-size: 34px;
+.description h2 {
+  font-family: Lato-Light;
+  font-size: 33px;
   color: #4A4A4A;
   line-height: 40px;
-  font-weight: 400;
-  margin-bottom: 30px;
 }
 
-.conversation h3 strong {
-  font-weight: 800;
+/* Upcoming */
+
+.upcoming {
+  background: #000 url('/images/background-crowd.jpg');
+  background-size: auto 100%;
 }
 
-.conversation p {
-  margin-top: 30px;
-  font-size: 18px;
-  color: #4A4A4A;
-  line-height: 19px;
-}
-
-.conversation .button p {
-  margin-top:15px;
-  font-weight: 300px;
-  font-size: 16px;
-  color: #4A4A4A;
-  line-height: 19px;
-}
-
-.conversation .btn {
-  font-size: 28px;
-  line-height: 38px;
+.upcoming h3 {
+  text-transform:uppercase;
+  font-family: Lato-Black;
+  font-size: 41px;
   color: #FFFFFF;
-  font-weight:300;
-  width: 100%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  line-height: 47px;
+  letter-spacing: 8px;
+}
+
+.upcoming .upcoming-item {
+  padding-bottom: 30px;
+}
+
+.upcoming .upcoming-item h4 {
+  font-family: Lato-Bold;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 35px;
+}
+
+.upcoming .upcoming-item p {
+  font-family: Lato-Light;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+
+.upcoming .upcoming-item a {
+  text-transform:uppercase;
+}
+
+.upcoming h4.see-more {
+  text-transform:uppercase;
+  font-family: Lato-Black;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 21px;
+  letter-spacing: 4px;
+}
+
+/* Recent Speakers */
+
+.recent {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.recent h2 {
+  text-transform:uppercase;
+  font-family: Lato-Black;
+  font-size: 41px;
+  color: #484848;
+  line-height: 47px;
+  letter-spacing: 8px;
+}
+
+.recent h4 {
+  font-family: Lato-Light;
+  font-size: 25px;
+  color: #4A4A4A;
+  line-height: 30px;
+}
+
+.recent .recent-item {
+  font-family: Lato-Light;
+  font-size: 18px;
+  color: #979797;
+  line-height: 26px;
+}
+
+.recent .recent-item .month {
+  width: 100px;
+}
+
+.recent .recent-item .speakername {
+  font-weight: bold;
+}
+
+/* Commonwealth Club */
+.cwc p{
+  font-family: Lato-Bold;
+  font-size: 15px;
+  color: #484848;
+  line-height: 33px;
+}
+
+
+/* Join */
+
+.join {
   background: #3498DB;
-  border-radius: 8px;
-  border-color: #3498DB;
-  white-space: normal;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
-@media (min-width: 992px) {
-
-  .conversation .btn {
-    font-size: 32px;
-    color: #FFFFFF;
-    line-height: 38px;
-    font-weight:400;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: #3498DB;
-    border-radius: 8px;
-    border-color: #3498DB;
-  }
-  
+.join h2 {
+  font-family: Lato-Light;
+  font-size: 33px;
+  color: #FFFFFF;
+  line-height: 40px;
 }
-
-/* Stay Informed */
 
 .stay-informed {
   background: #000 url('/images/gg-park.jpg');
@@ -716,57 +216,8 @@ h4 {
   background-position: bottom;
 }
 
-@media (min-width: 768px) and (max-width: 1113px) {
-
-  .stay-informed {
-    background: #000 url('/images/gg-park.jpg');
-    background-size: auto 100%;
-    background-position: top;
-  }
-
-}
-
-@media (min-width: 1114px) {
-
-  .stay-informed {
-    background: #000 url('/images/gg-park.jpg');
-    background-size: 100%;
-  }
-
-}
-@media (min-width: 992px) {
-
-  .stay-informed .container {
-    padding-top: 0px;
-  }
-
-}
 .blue-alpha {
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-.stay-informed .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-
-
-.stay-informed h4 {
-  text-transform:uppercase;
-  font-weight: 600;
-  font-size: 22px;
-  color: #FFF;
-  line-height: 22px;
-  padding-bottom:0px;
-}
-
-.stay-informed p {
-  font-weight: 300;
-  font-size: 20px;
-  color: #FFF;
-  line-height: 21px;
-  padding-bottom:20px;
 }
 
 .stay-informed .email {
@@ -794,36 +245,6 @@ h4 {
 
 .page-footer {
   margin-top: 400px;
-}
-
-.page-footer p {
-  color: #FFFFFF;
-  text-align: center;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 21px;
-}
-
-.page-footer a {
-  color: #FFFFFF;
-}
-
-.page-footer i {
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #FFF;
-}
-
-@media (min-width: 992px) {
-
-  .page-footer p {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 21px;
-  }
-
 }
 
 /* Social Icons */
