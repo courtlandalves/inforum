@@ -38,10 +38,11 @@ p.text-primary:hover {
 .btn-warning {
   background: #F99000;
   border-color: #F99000; 
-  font-family: Lato-Regular;
-  font-size: 15px;
+  font-family: Lato;
+  font-size: 19px;
   color: #FFFFFF;
-  line-height: 18px;
+  line-height: 23px;
+  letter-spacing: 0px;
   text-transform: uppercase;
 }
 
@@ -273,7 +274,7 @@ p.text-primary:hover {
 }
 
 body {
-  background: #fff url('/images/gg-park.jpg');
+  background: #fff url('/images/members-outside.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
