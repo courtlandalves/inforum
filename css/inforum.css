@@ -69,6 +69,7 @@ p.text-primary:hover {
   background: #000 url('/images/on-stage-edge-dark.jpg');
   background-size: auto 100%;
   background-position: bottom;
+  padding-bottom: 15px;
 }
 
 .hero h1 {
@@ -159,6 +160,10 @@ p.text-primary:hover {
   color: #FFFFFF;
   line-height: 21px;
   letter-spacing: 4px;
+}
+
+.upcoming h4.see-more img {
+  padding-left: 50px;
 }
 
 /* Recent Speakers */
