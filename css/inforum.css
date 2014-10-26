@@ -150,6 +150,7 @@ p.text-primary:hover {
 }
 
 .upcoming .upcoming-item h4 {
+  margin-top: 0px;
   font-family: Lato;
   font-weight: 700;
   font-size: 30px;
