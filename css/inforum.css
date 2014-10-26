@@ -15,15 +15,29 @@ p {
   font-weight: 400;  
 }
 
-p.text-primary {
-  color: #008BF5;
-  font-size: 28px;
-  line-height: 39px;
-  font-weight: 400;
+input.form-control {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 98%;
 }
 
-p.text-primary:hover {
-  color: #008BF5;
+.text-left {
+  text-align: center;  
+}
+
+.text-sm-right {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-sm-right {
+    text-align: right;
+  }
 }
 
 .btn, .form-control {
@@ -83,6 +97,7 @@ p.text-primary:hover {
 
 .hero {
   background: #000 url('/images/on-stage-edge-dark.jpg');
+  background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: bottom;
   padding-bottom: 15px;
@@ -129,6 +144,7 @@ p.text-primary:hover {
 
 .upcoming {
   background: #000 url('/images/castro-theatre-dark.jpg');
+  background-position: center;
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 20px;
