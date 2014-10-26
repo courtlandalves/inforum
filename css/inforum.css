@@ -30,6 +30,15 @@ p.text-primary:hover {
   border-radius: 0px;
 }
 
+.btn-warning {
+  background: #F99000;
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
 .btn-danger {
   background: #A00702;
   border: none;
@@ -200,7 +209,7 @@ p.text-primary:hover {
 }
 
 .recent .recent-item .month {
-  width: 100px;
+  width: 60px;
 }
 
 .recent .recent-item .speakername {
