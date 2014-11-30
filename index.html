@@ -3,9 +3,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-    <!-- Custom styles for this -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="css/inforum.css">
 
@@ -175,20 +174,35 @@
       </div>
     </div>
 
+    <!-- Modals -->
 
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <div id="confirm-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4>Thanks!  You'll be hearing from us shortly.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Templates -->
 
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
 
-    <!-- Used for flip animations -->
-    <script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script> 
-    <script type="text/javascript" src="js/handlebars-v1.3.0.js"></script> 
-    <script type="text/javascript" src="js/tabletop.js"></script> 
-    <script src="js/jquery.parallax-1.1.3.js"></script>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">Small modal</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div><!-- /.modal-content -->
+      </div>
+    </div>
 
     <script id="upcoming-template" type="text/x-handlebars-template">
 
@@ -219,9 +233,26 @@
 
     </script>
 
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+    <script type="text/javascript" src="js/tabletop.js"></script> 
+
+
     <script type="text/Javascript" src='js/inforum.js'></script>
 
+    <!-- Hello Bar is disabled until we figure out how to get it to talk to the current forms 
+
+    <script type="text/javascript" src="//my.hellobar.com/8b8db37fbe4902b62b33cef93c9a9e0de088d73e.js" async></script>
+
+    -->
+
     <script>
+
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -232,7 +263,6 @@
 
     </script>
 
-    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> -->
 
   </body>
 </html>

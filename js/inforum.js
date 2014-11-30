@@ -2,6 +2,7 @@ function renderGoogleData(data, tabletop) {
 
   renderUpcoming(data.upcoming);
   renderRecent(data.recent);
+  renderModal();
 
 }
 
@@ -29,6 +30,14 @@ function renderRecent(recent) {
   
 }
 
+function renderModal() {
+
+  if( location.search.indexOf("submitted=true") > -1 ) {
+    $("#confirm-modal").modal('show');
+  }
+
+}
+
 $( function() {
   Tabletop.init( { 
     key: '0Arjh_9mskXPsdEJTcDduN1hhT053TGpTQWdDZVJVclE',
@@ -36,33 +45,3 @@ $( function() {
   } );
 });
 
-/* *************************************** */  
-/* Parallax */
-/* *************************************** */  
-
-$(document).ready(function(){
-  if(window.innerWidth > 992) {
-    $('.description').parallax("50%", 0.7);
-    $('.quotes').parallax("50%", 0.7);
-  }
-});
-
-
-/* *************************************** */  
-/* Smooth Scrolling */
-/* *************************************** */  
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
-      }
-    }
-  });
-});
