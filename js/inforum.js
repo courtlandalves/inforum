@@ -11,7 +11,7 @@ function renderUpcoming(upcoming) {
   var source = $("#upcoming-template").html();
   var template = Handlebars.compile(source);
 
-  var photosToReplace = Math.min(3, upcoming.elements.length);
+  var photosToReplace = upcoming.elements.length;
 
   for (var i = 0; i < photosToReplace; i++) {
     $("#upcoming-items").append( template(upcoming.elements[i]) );
